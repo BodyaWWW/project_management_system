@@ -3,13 +3,22 @@ home: true
 actionText: Розпочати →
 actionLink: /intro/
 
-footer: "ECL 2.0 Licensed | Copyright © [YYYY] [Your Name]"
+footer: "ECL 2.0 Licensed | Copyright © [2021] [Бухтіяров Богдан]"
 ---
 
 
-**Виконав(-ла):** 
+**Виконали:** 
 
-*студент(-ка) 2-го курсу, групи (шифр групи)*<span padding-right:5em></span> **[ім’я ПРІЗВИЩЕ] [Посилання email, tg, fb]**
+*студенти 2-го курсу, групи ІО-06*
+
+<span padding-right:5em></span> **Бухтіяров Богдан [Telegram](https://t.me/bahdannn)**
+
+<span padding-right:5em></span> **Яровий Олександр [Telegram](https://t.me/alex23883)**
+
+<span padding-right:5em></span> **Карманов Никита [Telegram](https://t.me/frog_in_smoke)**
+
+<span padding-right:5em></span> **Користін Олександр [Telegram](https://t.me/okorystin)**
+
 
 
 **Керівник**
