@@ -15,7 +15,7 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/Project management system/',
+  base: '/project_management_system/',
   theme: 'cool',
   // dest: 'dist',
   head: [
