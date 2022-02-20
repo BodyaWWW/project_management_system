@@ -15,9 +15,11 @@ footer: "ECL 2.0 Licensed | Copyright © [2021] [Бухтіяров Богдан
 
 <span padding-right:5em></span> **Яровий Олександр [Telegram](https://t.me/alex23883)**
 
-<span padding-right:5em></span> **Карманов Никита [Telegram](https://t.me/frog_in_smoke)**
+<span padding-right:5em></span> **Карманов Нікіта [Telegram](https://t.me/frog_in_smoke)**
 
 <span padding-right:5em></span> **Користін Олександр [Telegram](https://t.me/okorystin)**
+
+<span padding-right:5em></span> **Вигівський Нікіта [Telegram](https://t.me/jesus_chrestos)**
 
 
 
