@@ -22,7 +22,6 @@ footer: "ECL 2.0 Licensed | Copyright © [2021] [Бухтіяров Богдан
 <span padding-right:5em></span> **Вигівський Нікіта [Telegram](https://t.me/jesus_chrestos)**
 
 
-
 **Керівник**
 
 *доцент кафедри ОТ ФІОТ, к.т.н., доцент*<span padding-right:5em></span> **Андрій БОЛДАК** 
