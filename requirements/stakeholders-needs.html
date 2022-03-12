@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Запити зацікавлених осіб | Система Управління Проектами</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    <link rel="icon" href="/project_management_system/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="description" content="Лабораторні роботи з дисципліни &quot;Організація баз даних&quot;">
+    
+    <link rel="preload" href="/project_management_system/assets/css/0.styles.0c1bf166.css" as="style"><link rel="preload" href="/project_management_system/assets/js/app.e4eb971f.js" as="script"><link rel="preload" href="/project_management_system/assets/js/2.6b9d4ca6.js" as="script"><link rel="preload" href="/project_management_system/assets/js/20.a1946310.js" as="script"><link rel="prefetch" href="/project_management_system/assets/js/10.ad781c78.js"><link rel="prefetch" href="/project_management_system/assets/js/11.32ba2003.js"><link rel="prefetch" href="/project_management_system/assets/js/12.f4d805b2.js"><link rel="prefetch" href="/project_management_system/assets/js/13.b369ab95.js"><link rel="prefetch" href="/project_management_system/assets/js/14.4fd45c58.js"><link rel="prefetch" href="/project_management_system/assets/js/15.97611e9e.js"><link rel="prefetch" href="/project_management_system/assets/js/16.6a73ab67.js"><link rel="prefetch" href="/project_management_system/assets/js/17.f829100a.js"><link rel="prefetch" href="/project_management_system/assets/js/18.f1775122.js"><link rel="prefetch" href="/project_management_system/assets/js/19.53f9c669.js"><link rel="prefetch" href="/project_management_system/assets/js/21.6d9460cc.js"><link rel="prefetch" href="/project_management_system/assets/js/22.8ccf43fb.js"><link rel="prefetch" href="/project_management_system/assets/js/23.d97aed26.js"><link rel="prefetch" href="/project_management_system/assets/js/24.42ae2fc3.js"><link rel="prefetch" href="/project_management_system/assets/js/25.2d43caa3.js"><link rel="prefetch" href="/project_management_system/assets/js/26.2b7d224e.js"><link rel="prefetch" href="/project_management_system/assets/js/3.4ed45971.js"><link rel="prefetch" href="/project_management_system/assets/js/4.5d00dd71.js"><link rel="prefetch" href="/project_management_system/assets/js/5.3c71fcca.js"><link rel="prefetch" href="/project_management_system/assets/js/6.73f22f79.js"><link rel="prefetch" href="/project_management_system/assets/js/7.3f7143c7.js"><link rel="prefetch" href="/project_management_system/assets/js/8.e8761b22.js"><link rel="prefetch" href="/project_management_system/assets/js/9.c0a843c2.js">
+    <link rel="stylesheet" href="/project_management_system/assets/css/0.styles.0c1bf166.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/project_management_system/" class="home-link router-link-active"><!----> <span class="site-name">Система Управління Проектами</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/project_management_system/" class="nav-link">
+  Початок
+</a></div> <a href="https://github.com/BodyaWWW/project_management_system" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/project_management_system/" class="nav-link">
+  Початок
+</a></div> <a href="https://github.com/BodyaWWW/project_management_system" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/project_management_system/intro/" class="sidebar-link">Вступ</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/project_management_system/requirements/" class="sidebar-heading clickable router-link-active open"><span>Розроблення загальних вимог до системи</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/project_management_system/requirements/state-of-the-art.html" class="sidebar-link">Аналіз предметної області в системі управління проектами</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#вступ" class="sidebar-link">Вступ</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#основні-визначення" class="sidebar-link">Основні визначення</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#підходи-та-способи-вирішення-завдання" class="sidebar-link">Підходи та способи вирішення завдання</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#методологія-розробки-програмного-забезпечення" class="sidebar-link">Методологія розробки програмного забезпечення</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#класифікація" class="sidebar-link">Класифікація</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#приклади-методологіи" class="sidebar-link">Приклади методологій</a></li></ul></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#артефакти-в-розробці-пз" class="sidebar-link">Артефакти в розробці ПЗ</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#порівняльна-характеристика-існуючих-засобів-вирішення-завдання" class="sidebar-link">Порівняльна характеристика існуючих засобів вирішення завдання</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#висновки" class="sidebar-link">Висновки</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/state-of-the-art.html#посилання" class="sidebar-link">Посилання</a></li></ul></li><li><a href="/project_management_system/requirements/stakeholders-needs.html" aria-current="page" class="active sidebar-link">Запити зацікавлених осіб</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#вступ" class="sidebar-link">Вступ</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#мета" class="sidebar-link">Мета</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#контекст" class="sidebar-link">Контекст</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#основні-визначення-та-скорочення" class="sidebar-link">Основні визначення та скорочення</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#посилання" class="sidebar-link">Посилання</a></li></ul></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#короткии-зміст" class="sidebar-link">Короткий зміст</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#характеристика-ділових-процесів" class="sidebar-link">Характеристика ділових процесів</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#короткии-огляд-продукту" class="sidebar-link">Короткий огляд продукту</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#функціональність" class="sidebar-link">Функціональність</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#практичність" class="sidebar-link">Практичність</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#надіиність" class="sidebar-link">Надійність</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#продуктивність" class="sidebar-link">Продуктивність</a></li><li class="sidebar-sub-header"><a href="/project_management_system/requirements/stakeholders-needs.html#експлуатаціина-придатність" class="sidebar-link">Експлуатаційна придатність</a></li></ul></li></ul></section></li><li><a href="/project_management_system/use%20cases/" class="sidebar-link">Розроблення вимог до функціональности системи</a></li><li><a href="/project_management_system/design/" class="sidebar-link">Проектування інформаційного забезпечення</a></li><li><a href="/project_management_system/software/" class="sidebar-link">Реалізація інформаційного та програмного забезпечення</a></li><li><a href="/project_management_system/test/" class="sidebar-link">Тестування працездатності системи</a></li><li><a href="/project_management_system/conclusion/" class="sidebar-link">Висновки</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="запити-зацікавлених-осіб"><a href="#запити-зацікавлених-осіб" class="header-anchor">#</a> Запити зацікавлених осіб</h1> <h2 id="вступ"><a href="#вступ" class="header-anchor">#</a> Вступ</h2> <p><em>Надання інформації щодо запиту зацікавленіх осіб в проекті &quot; Система управління проектаи &quot;.</em></p> <h3 id="мета"><a href="#мета" class="header-anchor">#</a> Мета</h3> <p><em>1) Зробити аналіз вимог до проекту який буде розроблятись.<br>
+2) Написати документацію до проекту &quot;Система управління проектами.&quot; <br>
+3)Проанілзувати цільову аудіторію нашого проекта,а також різну функціональніть та продуктивність нашої системи.<br>
+4) Запровадити технічну підтримку та провести різні тести функціоналу.<br>
+5) Розробити систему управління проектами.<br></em></p> <h3 id="контекст"><a href="#контекст" class="header-anchor">#</a> Контекст</h3> <p><em>Цей документ описує проект &quot;Система управління проектами&quot;. Його функціональність та особливості. Контекст проекту дає можливість зацікавленим особам більш детально ознайомитись з проектом.</em></p> <h3 id="основні-визначення-та-скорочення"><a href="#основні-визначення-та-скорочення" class="header-anchor">#</a> Основні визначення та скорочення</h3> <p><span style="color:orange;"> Зацікавлені особи </span><em>- організації, що надають послуги з розроблення програмного забезпечення, сайтів, мобільних застосунків.
+<br> <span style="color:orange;"> Система </span></em>- це платформа для створення ToDo - дошок для контролю роботи над проектами та надання тімлідам доступу до контролю прогресу розробників.*
+<br> <span style="color:orange;"> Цільва аудиторія </span><em>- група людей, на яких розраховано певний товар, продукт.</em></p> <h3 id="посилання"><a href="#посилання" class="header-anchor">#</a> Посилання</h3> <p><em>Вся інформація про основні визначення були знайденні на Wikipedia.</em> <br> <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0" target="_blank" rel="noopener noreferrer">Wikipedia<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="короткии-зміст"><a href="#короткии-зміст" class="header-anchor">#</a> Короткий зміст</h2> <p><em>У цьому документі йдеться про різні процеси користувачів нашого продукту. Також короткий огляд продукт, з спеціальними сценаріями, функціональність нашого проекту та опис різних інтерфейсів сервісу, а також про практичність продукту, його надійність, продуктивність та експлуатаційну придатність.</em></p> <h2 id="характеристика-ділових-процесів"><a href="#характеристика-ділових-процесів" class="header-anchor">#</a> Характеристика ділових процесів</h2> <p><span style="color:orange;"><h3> Процеси користувача </h3></span></p> <p><em><strong>ID:</strong></em> <em>user_1</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Реєстрація у системі</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Користувач, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Новий користувач, який не використував нашу систему. Користувач не зареєстрованний у системі.</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Успішна реєстрація користувача у нашій системі.</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Знайденно обліковий запис користувача.</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1. Користувач знаходить нашу систему.
+<br>
+2. Користувач починає реєстрацію у системі.
+<br>
+3. Користувач вводить реєастраційні дані.
+<br>
+4. Система перевіряє випадок коли запис користувача вже був створенний.
+<br>
+5. Система створює новий обліковий запис.
+<br>
+6. Користувач отримує від системи свої дані облікового запису.
+<br>
+7. Користувач завершуе реєстрацію.</em></p> <hr> <p><em><strong>ID:</strong></em> <em>user_2</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Користувач хоче авторизуватись у системі</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Користувач, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em><br>1.Користувач вже був зареєстрований у системі
+<br>
+2. Користувач був не пройшов авторизацію</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Успішна авторизація користувача у системі</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em><br>1.Користувач не зареєстрований у системі
+<br>
+2.Користувач не може пройти авторизацію</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1. Користувач заходить в систему.
+<br>
+2. Користувач вводить авторизаційні дані.
+<br>
+3. Система перевіряє дані користувача. Якщо облікового запису немає то система повертае користувача на реєстрацію.
+<br>
+4. Система надає дані та доступ до облікового запису користувача.
+<br>
+5. Користувач завершує взаємодію.</em></p> <hr> <p><em><strong>ID:</strong></em> <em>user_3</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Користувач створює свій проект</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Користувач, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Користувач пройшов авторизацію та хоче створити або використовувати свій проект</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Створенний проект</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em><br>1. Користувач не пройшов авторизацію
+<br>
+2. Не працюючий функціонал у системі</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1. Користувач пройшов авторизацію.
+<br>
+2. Користувач відкриває проект.
+<br>
+3. Користувач використовує функціонал системи.
+<br>
+4. Користувач створюе проект.
+<br>
+5. Користувач завершує взаемодію.</em></p> <hr> <p><span style="color:orange;"><h3> Процеси Прожект Менеджера </h3></span></p> <p><em><strong>ID:</strong></em> <em>project_m_1</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Задача у створені проекта</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Менеджер проектів, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Поставлена задача від заказників</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Створенний проект</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Кліент не правильно задав ТЗ</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br> 1. Менеджер проектів отримує ТЗ.
+<br>
+2. Менеджер проектів створює проект.
+<br>
+3. Кліент отримує проект.
+<br>
+Менеджер проетів завершує взаємодію.</em></p> <hr> <p><em><strong>ID:</strong></em> <em>project_m_2</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Призначити завдання</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Менеджер проектів, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Наявність створених завдань</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Призначити існуючі завдання обраному тімліду, який далі буде їх призначати розробникам.</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Не існують та не задані завдання</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1.Кліент обирає призначити менеджера проектів.
+<br>
+2. Користувач співвідносить завдання до менеджеру проектів.</em> <br>
+3. Менеджер проектів зберігае введенну інформацію.
+<br>
+4. Менеджер проектів звертається до тімліда.
+<br>
+5. Кліент завершує взаємодію.
+</p><hr><p></p> <p><em><strong>ID:</strong></em> <em>project_m_3</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Контроль прогресу проекту</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Менеджер проектів, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Наявність проекту який знаходиться в стані розробки</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Відображення динаміки та прогресу виконання проекту у відсотка, різних діаграмах, та інших показників</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Проект не існує</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1. Менеджер проектів обирає проект.
+<br>
+2. Менеджер проектів хоче переглянути прогрес виконання проекту.
+<br>
+3. Система відображає прогрес виконання проекту.
+<br>
+4. Менеджер проектів завершує взаємодію</em></p> <hr> <p><span style="color:orange;"><h3> Процеси Тім Лідера </h3></span></p> <p><em><strong>ID:</strong></em> <em>lead_1</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Поставити дедлайн виконання задач</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Тімлід, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Наявність завдань, які тімлід назначає</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Створені дедлайни виконання задач</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Задано некоректний дедлайн</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1.ТімЛід обирає завдання.
+<br>
+2.ТімЛід натискає змінити дедлайн.
+<br>
+3.ТімЛід зберігає введену інформацію та зміну дедлайну.
+<br>
+4.Система записує зміни.
+<br>
+5.Тімлід завершує взаємдію.</em></p> <hr> <p><em><strong>ID:</strong></em> <em>lead_2</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Додавання різних артефактів до завдання</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>ТімЛід, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Наявність створених раніше задач</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Успішне додавання різних артефактів до нашого проекту</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Не має заданого артефакта, або не має заданої задачі</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1. Тімлід хоче додати різні артефакти до конкретної задачі.
+<br>
+2. Тімлід розприділяє які атрефакти відносяться до якої задачі.
+<br>
+3. Система зберігає введену інофрмацію.
+<br>
+4. Тімлід завершуе взаємодію.</em></p> <hr> <p><em><strong>ID:</strong></em> <em>lead_3</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Призначити та перевірити задачі розробників</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Тімлід, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em><br>1. Наявність створених завдань.
+<br>
+2. Завдання знаходиться у стані перевірки.</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Призначене та перевірене завдання</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Відсутні</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br> 1. Тімлід обирає різні завдання.
+<br>
+2. Тімлід робить відношення між деяким завданням та деяким розробником.
+<br>
+3. Тімлід зберігає введену інформацію.
+<br>
+4. Система записує зміни.
+<br>
+5. Тімлід обирає завдання.
+<br>
+6. Тімлід вводить результат перевірки деяких завдань.
+<br>
+7. Система записує та зберігає зміни.
+<br>
+8. Тімлід завершує взаемодію з системою.</em></p> <hr> <p><span style="color:orange;"><h3> Процеси Розробника </h3></span></p> <p><em><strong>ID:</strong></em> <em>developer_1</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Отримання завдання та аналіз вмісту ціеї задачі</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Розробник, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em><br> 1. Завдання існує.
+<br>
+2. Завдання має деякий зміст.
+<br>
+3. Завдання призначенно розробнику.</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Розробник проаналізував завдання та перевів його у статус виконання</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Відсутні</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br>1. Розробнику назнаечається задача.
+<br>
+2. Система відображає інформацію про задачу.
+<br>
+3. Система позначає та зберігає завдання як прийняте.
+<br>
+4. Розробник завершує взаємодію з системою.</em></p> <hr> <p><em><strong>ID:</strong></em> <em>developer_2</em></p> <p><em><strong>НАЗВА:</strong></em> <em>Розробник віддає завдання на перевірку</em></p> <p><em><strong>УЧАСНИКИ:</strong></em> <em>Розробник, Система</em></p> <p><em><strong>ПЕРЕДУМОВИ:</strong></em> <em>Розробник виконав завдання та може його відправити на перевірку</em></p> <p><em><strong>РЕЗУЛЬТАТ:</strong></em> <em>Завдання у статусі перевірки</em></p> <p><em><strong>ВИКЛЮЧНІ СИТУАЦІЇ:</strong></em> <em>Помилка з артефактами</em></p> <p><em><strong>ОСНОВНИЙ СЦЕНАРІЙ:</strong></em> <em><br> 1. Розробник обирає завдання, яке виконував.
+<br>
+2. Розробник відправляє завдання на перевірку.
+<br>
+3. Система відправляє повідомленя до тімлідера, що завдання готове та його можливо перевірити.
+<br>
+4. Система змінює статус завдання.
+<br>
+5. Розробник завершає взаємодію з системою.</em></p> <hr> <h2 id="короткии-огляд-продукту"><a href="#короткии-огляд-продукту" class="header-anchor">#</a> Короткий огляд продукту</h2> <p><em>&quot;Система управління проектами&quot; - це онлайн та офлайн сервіс, а такоже мобільний додаток який створенний дляспільної розробки та роботи над проетком, та в сфері управління. Наш сервіс запроваджуе зручне спілкування між різними людьми, такі як тімлідер, розробник та менеджер проекту. В нашому функціоналі є різні можливості. Наприклад, наш сервір дозволяє планувати різні етапи розробки проекту, котралювати різні задачі, перевіряти розробниа, ставити дедлайни, та все ж таки назначати їх. Також наш сервіс дозволяє зручно взаємопрацювати с іншими фірмами, та онлайн-сервісами.</em></p> <p><span style="color:orange;"><h3> Спеціальні сценарії: </h3></span></p> <p><em>1. Організація розробки сайту.<br> 2. Додатку.<br> 3.  Мобільного застосунку.<br> 4. Організація робочого плану на тиждень, на місяць.<br> 5. Контроль роботи працівників організації.<br> 6. Створення спільної роботи між організаціями.</em></p> <h2 id="функціональність"><a href="#функціональність" class="header-anchor">#</a> Функціональність</h2> <p><em>Наш проект має різні інтерфейси та функціональність для різних робітників проекта.<br> Всього в нашому проекті є такі інтерфейси:<br> 1. Project Manager<br>2. Teamleader <br>3. Developer<br> Тепер про кожний окремо.<br></em> <span style="color:orange;"><h3> Інтерфейс менеджера проекту (Project Manager) </h3></span>
+Функціональність менеджера проекту передбачає створення проекту та його завдань, безпосередню взаємодію із тімлідами та відслідковування результатів роботи.<br>
+Можливості:<br></p> <ul><li>Створити проект<br></li> <li>Редагувати існуючі проекти<br></li> <li>Видалити проект<br></li> <li>Додати завдання проекту<br></li> <li>Призначити тімліду декілька завдань<br></li> <li>Котролювати прогрес роботи розробників<br></li> <li>Переглядати прогрес роботи кожного з тімлідів<br></li> <li>Переглядати загальний прогрес проекту<br></li></ul> <p><span style="color:orange;"><h3> Інтерфейс тімліда (Teamlead) </h3></span></p> <p>Функціональність тімліда передбачає привʼязування артефактів проекту до задач, визначення дедлайнів, відправлення та перевірку завдань конкретних розробників.
+<br>
+Можливості:
+<br></p> <ul><li>Визначити коло розробників<br></li> <li>Привʼязати артефакти проекту до існуючих завдань<br></li> <li>Додати терміни виконання задач (deadlines)<br></li> <li>Відправити на виконання кожному з розробників певну кількість задач (TODO)<br></li> <li>Перевіряти виконання задач (DONE, IN PROGRESS)<br></li> <li>Надати доступ до проекту розробникам<br></li> <li>Змінювати статус задач (TODO, IN PROGRESS, REVIEW, DONE)<br></li></ul> <p><span style="color:orange;"><h3> Інтерфейс розробника (Developer) </h3></span></p> <p>Функціональність розробника передбачає перегляд вмісту призначених йому задач та артефактів, відправку виконаних задач на перевірку тімліду.
+<br>
+Можливості:
+<br></p> <ul><li>Прийняти задачу від тімліда<br></li> <li>Отримати доступ до вмісту задачі<br></li> <li>Переглядати артефакти, привʼязані до задачі<br></li> <li>Відправити задачу на перевірку тімліду<br></li> <li>Відправляти запит на зміну статусу проекту<br></li></ul> <h2 id="практичність"><a href="#практичність" class="header-anchor">#</a> Практичність</h2> <p><em>Через те, що наша програма має дуже легкий інтерфейс та зручне розполодення інструментів, це робить роботу над проектами ще легше та зручніше. А час роботи меншим.</em></p> <h2 id="надіиність"><a href="#надіиність" class="header-anchor">#</a> Надійність</h2> <p><em>1. Володіти засобами захисту даних користувачів та проєктів.<br>
+2. Виконувати резервну копію даних.<br>
+3. Обслуговувати велику кількість користувачів і витримувати велике навантаження.<br>
+4. Мати чітку систему надання доступу користувачам згідно посади в організації та вибору менеджера.<br>
+5. Підтримувати зворотній зв'язок з користувачем.</em></p> <h2 id="продуктивність"><a href="#продуктивність" class="header-anchor">#</a> Продуктивність</h2> <p><em>1. Обмежена кількість створюваних проектів певної особи.<br>
+2. Обмежена кількість задач у створеному проекті.<br>
+3. Обмежена кількість користувачів створеного проекту.<br>
+4. Обмежена кількість запитів в секундум.<br>
+5. Захист від дудос атак та взлому аккаунтів користувачей.</em></p> <h2 id="експлуатаціина-придатність"><a href="#експлуатаціина-придатність" class="header-anchor">#</a> Експлуатаційна придатність</h2> <p><em>Вимоги до підтримки:<br>
+1.Усунення помилок у роботі проекта протягом 5-х днів після знайдення помилок.<br>
+2.Випуск нових версій ПЗ та оновлення продукту одразу після додавання нової функціональності. Ежемісячно.<br>
+3.Регулярна оптимізація та рефакторинг програмного коду.<br>
+4.Опрацювання та аналіз збоїв з їх подальшою ліквідацією.</em></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Останнє оновлення:</span> <span class="time">3/12/2022, 7:44:39 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/project_management_system/requirements/state-of-the-art.html" class="prev">
+        Аналіз предметної області в системі управління проектами
+      </a></span> <span class="next"><a href="/project_management_system/use%20cases/">
+        Розроблення вимог до функціональности системи
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/project_management_system/assets/js/app.e4eb971f.js" defer></script><script src="/project_management_system/assets/js/2.6b9d4ca6.js" defer></script><script src="/project_management_system/assets/js/20.a1946310.js" defer></script>
+  </body>
+</html>
